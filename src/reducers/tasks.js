@@ -29,7 +29,7 @@ function tasksReducer(state = INITIAL_STATE, action = {}) {
 
 export function addTask(task) {
   return {
-    type: MARK_INTERESTED,
+    type: ADD_TASK,
     payload: task,
   };
 }
